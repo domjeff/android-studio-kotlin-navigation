@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".Fragment3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment 2 succeeds This is Fragment 3" />
+
+        <TextView
+            android:id="@+id/tv_from_fragment2_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment2 top" />
+
+        <TextView
+            android:id="@+id/tv_from_fragment2_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment2 Bottom" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok Go back to home screen" />
+
+    </LinearLayout>
+</layout>
